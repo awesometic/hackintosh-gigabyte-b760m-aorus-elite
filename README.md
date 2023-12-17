@@ -11,7 +11,7 @@ This repository contains the EFI directory of Intel RaptorLake i7-13700K and Gig
 
 | Component    | Product Name                                     | Note                                           |
 |--------------|--------------------------------------------------|------------------------------------------------|
-| CPU          | Intel 13th Gen Core 17-13700K                    | Undervolting by 0.170 V                        |
+| CPU          | Intel 13th Gen Core i7-13700K                    | Undervolting by 0.170 V                        |
 | Mainboard    | Gigabyte B760M Aorus Elite                       | F15 BIOS                                       |
 | Memory       | Samsung DDR5 5600MHz 16GB 2EA                    |                                                |
 | Graphics     | XFX AMD Radeon RX 5700 XT 8GB GDDR6 RAW II Ultra | Changed its thermal pad and thermal paste      |
@@ -26,6 +26,17 @@ This repository contains the EFI directory of Intel RaptorLake i7-13700K and Gig
 | Case         | darkFlash DNM600 MAX MESH RGB Black              |                                                |
 | USB DAC      | Audinst HUD-DX1 Blue24                           |                                                |
 | USB MIC      | Blue Yeti X                                      |                                                |
+
+### Geekbench 6 benchmark results
+
+> Performed only one time right after it boots. The score isn't important for me 🙂
+
+- [CPU](https://browser.geekbench.com/v6/cpu/4013023)
+  - Single-core **2784**
+  - Multi-core **16459**
+- GPU
+  - [OpenCL](https://browser.geekbench.com/v6/compute/1451249) **72390**
+  - [Metal](https://browser.geekbench.com/v6/compute/1451256) **109462**
 
 ## EFI structure
 
@@ -66,7 +77,7 @@ Fortunately I found that [there are some other people that suffering from this i
 
 After so many searches I found that some people using Radeon dGPU on their Hackintosh [spoof his GPU to Radeon Pro one](https://www.tonymacx86.com/threads/macos-12-3-update-causes-problems-for-5700-6800-6900-graphics-cards.319421/page-14#post-2312916) by editing `config.plist` file. I gave it a shot, and it seems like working for me too, no kernel panic since I applied this spoofing.
 
-Here is very important caution for those who wants this `config.plist` file with only essential edits. You must check the GPU PCI path using [Hackintool](https://github.com/benbaker76/Hackintool) or something, and edit the `DeviceProperties` part of my configs to yours. Otherwise the framebuffer won't init well so you will see only the black screen after boot.
+Here is very important caution for those who wants this `config.plist` file with only essential edits. You must check the **GPU PCI path** using [Hackintool](https://github.com/benbaker76/Hackintool) or something, and edit the `DeviceProperties` part of my configs to yours. Otherwise the framebuffer won't init well so you will see only the black screen after boot.
 
 ### OpenCore
 
