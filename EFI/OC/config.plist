@@ -836,7 +836,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>-v watchdog=0 agdpmod=pikera alcid=11 -wegnoigpu -radcodec npci=0x2000</string>
+				<string>-v watchdog=0 agdpmod=pikera alcid=11 -wegnoigpu -radcodec npci=0x2000 revpatch=sbvmm</string>
 				<key>csr-active-config</key>
 				<data>
 				/w8AAA==
