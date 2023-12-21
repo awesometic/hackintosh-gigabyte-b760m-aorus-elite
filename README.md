@@ -135,18 +135,11 @@ Here is very important caution for those who wants this `config.plist` file with
 
 - WhateverGreen.kext
 
-#### Fix Audio ports
+#### Fix audio ports
 
 > https://github.com/acidanthera/AppleALC
 
 - AppleALC.kext
-
-#### Fix all USB port works
-
-> https://github.com/daliansky/OS-X-USB-Inject-All
-
-- USBInjectAll.kext
-- XHCI-unsupported.kext
 
 #### Fix RTL8125 Ethernet
 
@@ -169,6 +162,12 @@ Here is very important caution for those who wants this `config.plist` file with
 
 - RadeonSensor.kext
 - SMCRadeonSensor.kext
+
+#### Correct USB port mapping using Hackintool
+
+> https://github.com/benbaker76/Hackintool
+
+- USBPorts.kext
 
 ### Tools
 
