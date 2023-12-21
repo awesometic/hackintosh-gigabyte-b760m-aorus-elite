@@ -795,7 +795,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v watchdog=0 agdpmod=pikera alcid=11 -wegnoigpu -radcodec npci=0x2000 revpatch=sbvmm</string>
+				<string>-v watchdog=0 agdpmod=pikera alcid=11 -wegnoigpu -radcodec npci=0x2000 revpatch=sbvmm,cpuname</string>
 				<key>csr-active-config</key>
 				<data>/w8AAA==</data>
 				<key>prev-lang:kbd</key>
