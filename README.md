@@ -1,3 +1,22 @@
+# ARCHIVED
+
+<details>
+  <summary><i>I think...</i></summary>
+  
+Since Apple uses its own hardware, the Apple silicon, Apple reduces the support of the old hardware such as Broadcom WiFi/BT chipset.
+
+This makes the machine not that flawlessly work as much as the native one does, so as far as I know all the Hackintosh machines using macOS 14 have a minor bug even if it is not that noticeable.
+
+> Maybe it is not, there could be someone who uses a perfect Hackintosh with macOS 14, if so you can find him.
+
+So I think The bugs will increase as time goes on, and it is definite unless Apple starts to support Intel CPU again 😓
+
+For this reason, I gave up Hackintosh-ing my main machine and will stop maintaining this Hackintosh EFI repo.
+
+Thank you 😃
+
+</details>
+
 # Raptor Lake Hackintosh EFI
 
 ![RaptorLake Hackintosh - About this Mac](docs/sonoma_about_this_mac.png)
